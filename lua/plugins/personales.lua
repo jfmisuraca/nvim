@@ -64,7 +64,7 @@ return {
         "vulture",
         "autoflake",
         "autopep8",
-        "sqls",
+        "sqlls",
         "sqlfluff",
         -- "vimls",
         "vint",
@@ -72,4 +72,19 @@ return {
       },
     },
   },
+  -- { "brenoprata10/nvim-highlight-colors" },
+  -- {
+  --   "dreamsofcode-io/ChatGPT.nvim",
+  --   event = "VeryLazy",
+  --   dependencies = {
+  --     "MunifTanjim/nui.nvim",
+  --     "nvim-lua/plenary.nvim",
+  --     "nvim-telescope/telescope.nvim",
+  --   },
+  --   config = function()
+  --     require("chatgpt").setup({
+  --       async_api_key_cmd = "pass show chatgpt",
+  --     })
+  --   end,
+  -- },
 }
