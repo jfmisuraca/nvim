@@ -4,3 +4,4 @@
 vim.wo.relativenumber = true
 vim.opt.wrap = true
 vim.cmd("source ~/Dropbox/Aplicaciones/scripts/tildes.vim")
+vim.opt.scrolloff = 2
