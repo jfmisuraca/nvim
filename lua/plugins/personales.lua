@@ -31,7 +31,10 @@ return {
         "vim",
         "python",
         "css",
+        "sql",
       },
+      auto_install = true,
+      additional_vim_regex_highlighting = false,
     },
   },
 
@@ -72,6 +75,7 @@ return {
       },
     },
   },
+  -- { "David-Kunz/gen.nvim", dev = true },
   -- { "brenoprata10/nvim-highlight-colors" },
   -- {
   --   "dreamsofcode-io/ChatGPT.nvim",
