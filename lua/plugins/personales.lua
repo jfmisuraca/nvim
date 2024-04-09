@@ -129,6 +129,22 @@ return {
         },
       })
     end,
+    keys = {
+      {
+        "<leader>th",
+        function()
+          require("nvterm.terminal").toggle("horizontal")
+        end,
+        desc = "Open horizontal nvterm",
+      },
+      {
+        "<leader>tv",
+        function()
+          require("nvterm.terminal").toggle("vertical")
+        end,
+        desc = "Open vertical nvterm",
+      },
+    },
   },
   -- { "David-Kunz/gen.nvim", dev = true },
   -- { "brenoprata10/nvim-highlight-colors" },
